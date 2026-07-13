@@ -1,60 +1,40 @@
-# RENTMYTHING
 # 🚀 RentMyThing
 
-> **Campus Peer-to-Peer Rental Marketplace**
+<div align="center">
 
-RentMyThing is a modern web platform that enables students to **rent and lend items within their college campus**. Instead of buying expensive products that are used only occasionally, students can borrow them from nearby peers while owners earn money from their idle assets.
+### Campus Peer-to-Peer Rental Marketplace
 
-Built for **ThinkForBharat 1.0 – National Open Innovation Ideathon**.
+Rent expensive gear from students nearby.
 
----
+[🌐 Live Demo](https://rentmything.ai.studio)
 
-## 🌐 Live Demo
-
-🔗 https://rentmything.ai.studio
+</div>
 
 ---
 
-## 📸 Screenshots
+# 📸 Project Preview
 
-### Homepage
+## 🏠 Homepage
 
-<img width="100%" src="docs/homepage.png"/>
-
-### Product Listings
-
-<img width="100%" src="docs/listings.png"/>
-
-### Marketplace
-
-<img width="100%" src="docs/marketplace.png"/>
-
-> *(Replace these images with your own screenshots inside a `/docs` folder.)*
+<p align="center">
+  <img src="./docs/homepage.png" alt="RentMyThing Homepage" width="100%">
+</p>
 
 ---
 
-# 📖 Problem Statement
+## 🛍️ Marketplace
 
-College students often purchase expensive items such as:
-
-- 📷 Cameras
-- 💻 Laptops
-- 🚲 Cycles
-- 🎮 Gaming Consoles
-- 📽️ Projectors
-- 📚 Books
-- 🎸 Musical Instruments
-- 🏸 Sports Equipment
-
-These products remain unused most of the year.
-
-Meanwhile, other students need the same products for a short period but are forced to buy them.
+<p align="center">
+  <img src="./docs/listings.png" alt="RentMyThing Marketplace" width="100%">
+</p>
 
 ---
 
-# 💡 Our Solution
+# 💡 About
 
-RentMyThing creates a **trusted campus-only rental ecosystem** where students can safely rent products from other verified students.
+RentMyThing is a campus-first peer-to-peer rental marketplace that allows students to rent and lend products within their college community.
+
+Instead of purchasing expensive products that are used only occasionally, students can rent them from nearby verified students while owners earn passive income from idle assets.
 
 Think of it as:
 
@@ -64,130 +44,76 @@ Think of it as:
 
 # ✨ Features
 
-- 🔍 Smart Product Search
-- 🏷️ Category Browsing
-- ❤️ Wishlist
+- 🔍 Smart Search
+- 📂 Category Browsing
 - ⭐ Ratings & Reviews
-- 📍 Campus Listings
+- ❤️ Wishlist
 - 💰 Daily Rental Pricing
 - 🔒 Security Deposit
 - 📅 Rental Booking
 - 👤 Owner Dashboard
 - 🎓 Student Verification
-- 📱 Responsive Design
+- 📱 Fully Responsive Design
 
 ---
 
 # 🛠 Tech Stack
 
-## Frontend
+### Frontend
 
 - Next.js
 - React
 - TypeScript
 - Tailwind CSS
 
-## Backend
+### Backend
 
 - Node.js
 - Express.js
 
-## Database
+### Database
 
 - PostgreSQL
 - Prisma ORM
 
-## Authentication
+### Authentication
 
 - JWT Authentication
 
-## Image Storage
-
-- Cloudinary
-
-## Deployment
+### Deployment
 
 - Vercel
-- Render
 
 ---
 
-# 📊 Business Model
+# 💼 Business Model
 
-RentMyThing generates revenue through:
-
-- ✅ 5% Commission on every rental
-- ⭐ Featured Listings
-- 👑 Premium Seller Accounts
-- 🏫 Campus Partnerships
-- 🎓 College Subscription Plans
-- 🛡 Rental Protection Plans
-- 📢 Future Advertising
+- 5% Platform Commission
+- Premium Listings
+- Campus Partnerships
+- Subscription Plans
+- Rental Protection
+- Featured Products
 
 ---
 
 # 🚀 Future Roadmap
 
-- Mobile Application
-- QR Code Pickup
-- Digital Rental Agreement
-- Escrow Payments
-- Fraud Detection
-- College Partnerships
-- Campus Ambassador Program
-- Insurance Protection
-- Rewards & Referral Program
-
----
-
-# 📈 Why RentMyThing?
-
-### For Renters
-
-- Affordable access to expensive products
-- Trusted campus community
-- Secure rental process
-
-### For Owners
-
-- Earn passive income
-- Monetize unused items
-- Reach verified student renters
-
-### For Colleges
-
-- Encourages sharing economy
-- Reduces unnecessary purchases
-- Promotes sustainability
-
----
-
-# 📂 Project Structure
-
-```text
-RentMyThing/
-│
-├── app/
-├── components/
-├── public/
-├── lib/
-├── hooks/
-├── styles/
-├── prisma/
-├── docs/
-├── package.json
-└── README.md
-```
+- 📱 Mobile App
+- 📍 QR Pickup
+- 📄 Digital Rental Agreement
+- 💳 Escrow Payments
+- 🛡️ Fraud Detection
+- 🏫 College Partnerships
+- 🎁 Rewards & Referral Program
 
 ---
 
 # 👨‍💻 Team BLACKTECH
 
-### Abhishek Kumar Tiwari
-
-### Prateek Vijay
-
-### Bhavesh Vijay Verma
+- Abhishek Kumar Tiwari
+- Prateek Vijay
+- Bhavesh Vijay Verma
 
 ---
 
@@ -197,38 +123,16 @@ RentMyThing/
 
 ---
 
-# 🌍 Vision
+# 🌐 Live Website
 
-Our vision is to build India's largest campus-based rental ecosystem where every unused product becomes an earning opportunity and every student gets affordable access to essential resources.
-
----
-
-# 📜 License
-
-This project was developed for educational and hackathon purposes.
-
----
-
-## ⭐ Support
-
-If you like this project,
-
-⭐ **Star this repository**
-
-It motivates us to build more innovative solutions.
-
----
-
-## 📬 Contact
-
-For collaboration or feedback, feel free to reach out through GitHub Issues or Discussions.
+https://rentmything.ai.studio
 
 ---
 
 <div align="center">
 
-### Author - "Abhishek kumar tiwari"
+### ⭐ If you like this project, don't forget to star the repository!
 
-**Making Campus Sharing Simple, Affordable & Sustainable.**
+Author - Abhishek kumar tiwari
 
 </div>
