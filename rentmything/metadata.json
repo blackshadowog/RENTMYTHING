@@ -1,0 +1,6 @@
+{
+  "name": "RentMyThing",
+  "description": "A modern peer-to-peer rental marketplace designed for college and hostel students to rent items nearby.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

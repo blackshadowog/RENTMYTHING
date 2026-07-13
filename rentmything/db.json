@@ -1,0 +1,534 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@university.edu",
+      "phone": "+1 (555) 019-2834",
+      "college": "Boston University",
+      "hostel": "Warren Towers, Floor 12",
+      "profileImage": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&fit=crop",
+      "verified": true,
+      "studentIdVerified": true,
+      "rating": 4.8,
+      "role": "USER",
+      "createdAt": "2026-06-12T16:23:16.880Z"
+    },
+    {
+      "id": "u2",
+      "name": "Sarah Chen",
+      "email": "sarah.chen@university.edu",
+      "phone": "+1 (555) 014-9876",
+      "college": "Boston University",
+      "hostel": "Kilachand Hall, Room 402",
+      "profileImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
+      "verified": true,
+      "studentIdVerified": true,
+      "rating": 4.9,
+      "role": "USER",
+      "createdAt": "2026-06-17T16:23:16.880Z"
+    },
+    {
+      "id": "u3",
+      "name": "Jordan Miller",
+      "email": "jordan.m@university.edu",
+      "phone": "+1 (555) 017-3456",
+      "college": "Northeastern University",
+      "hostel": "International Village",
+      "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
+      "verified": true,
+      "studentIdVerified": false,
+      "rating": 4.5,
+      "role": "USER",
+      "createdAt": "2026-06-27T16:23:16.880Z"
+    },
+    {
+      "id": "admin1",
+      "name": "Chief Admin",
+      "email": "admin@rentmything.com",
+      "phone": "+1 (555) 999-0000",
+      "college": "System Administration",
+      "hostel": "HQ Office",
+      "profileImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop",
+      "verified": true,
+      "studentIdVerified": true,
+      "rating": 5,
+      "role": "ADMIN",
+      "createdAt": "2026-04-03T16:23:16.880Z"
+    },
+    {
+      "name": "alex",
+      "email": "demo@gmail.com",
+      "phone": "98382039360",
+      "college": "Boston University",
+      "hostel": "",
+      "profileImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&h=150&fit=crop",
+      "role": "USER",
+      "id": "g3cxg6r74",
+      "verified": true,
+      "studentIdVerified": true,
+      "rating": 5,
+      "createdAt": "2026-07-12T16:33:52.625Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "ownerId": "u1",
+      "title": "Sony Alpha a6400 Mirrorless Camera",
+      "description": "Perfect mirrorless camera for student projects, short films, and vlogging. Comes with 16-50mm kit lens, 2 extra batteries, and a 64GB SD card. Please return in clean condition!",
+      "category": "Camera",
+      "rentPricePerDay": 15,
+      "deposit": 100,
+      "images": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.351699999999994,
+        "lng": -71.1062,
+        "address": "Warren Towers Lobby, Boston University"
+      },
+      "availability": true,
+      "condition": "Like New",
+      "college": "Boston University",
+      "hostel": "Warren Towers",
+      "featured": true,
+      "createdAt": "2026-07-02T16:23:16.880Z"
+    },
+    {
+      "id": "p2",
+      "ownerId": "u2",
+      "title": "PlayStation 5 Console (Disc Edition)",
+      "description": "Comes with two DualSense controllers, Spider-Man 2, and FIFA 24 pre-installed. Great for weekend hostel tournament sessions or gaming nights.",
+      "category": "Gaming",
+      "rentPricePerDay": 20,
+      "deposit": 150,
+      "images": [
+        "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.349,
+        "lng": -71.1044,
+        "address": "Kilachand Hall Room 402"
+      },
+      "availability": true,
+      "condition": "Good",
+      "college": "Boston University",
+      "hostel": "Kilachand Hall",
+      "featured": true,
+      "createdAt": "2026-07-04T16:23:16.880Z"
+    },
+    {
+      "id": "p3",
+      "ownerId": "u1",
+      "title": "Epson VS260 3LCD Projector",
+      "description": "Bright 3300-lumen projector, perfect for outdoor movie nights or presentation rehearsals. Has HDMI input and includes a 15-foot cable and tripod stand!",
+      "category": "Projector",
+      "rentPricePerDay": 12,
+      "deposit": 50,
+      "images": [
+        "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.351,
+        "lng": -71.1069,
+        "address": "Warren Towers, Floor 12"
+      },
+      "availability": true,
+      "condition": "Good",
+      "college": "Boston University",
+      "hostel": "Warren Towers",
+      "featured": false,
+      "createdAt": "2026-06-30T16:23:16.880Z"
+    },
+    {
+      "id": "p4",
+      "ownerId": "u3",
+      "title": "Specialized Sirrus Hybrid Bike (Size M)",
+      "description": "Fast, lightweight hybrid cycle ideal for commuting or exploring the city. Includes a solid U-lock, front/rear lights, and a helmet. Ready to ride!",
+      "category": "Cycle",
+      "rentPricePerDay": 8,
+      "deposit": 40,
+      "images": [
+        "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.3465,
+        "lng": -71.1024,
+        "address": "International Village Bike Racks, Northeastern University"
+      },
+      "availability": true,
+      "condition": "Good",
+      "college": "Northeastern University",
+      "hostel": "International Village",
+      "featured": false,
+      "createdAt": "2026-07-07T16:23:16.880Z"
+    },
+    {
+      "id": "p5",
+      "ownerId": "u2",
+      "title": "Fender FA-115 Dreadnought Acoustic Guitar",
+      "description": "Perfect acoustic guitar for bonfire nights or jamming in the common room. Comes with a soft gig bag, tuner, guitar picks, and a strap.",
+      "category": "Musical Instruments",
+      "rentPricePerDay": 6,
+      "deposit": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.348699999999994,
+        "lng": -71.1042,
+        "address": "Kilachand Hall, Boston University"
+      },
+      "availability": true,
+      "condition": "Like New",
+      "college": "Boston University",
+      "hostel": "Kilachand Hall",
+      "featured": true,
+      "createdAt": "2026-06-28T16:23:16.880Z"
+    },
+    {
+      "id": "p6",
+      "ownerId": "u3",
+      "title": "Ninja Professional 1000W Blender",
+      "description": "Extremely powerful blender. Great for smoothies, meal prep, or frozen drinks. Please clean thoroughly before returning!",
+      "category": "Kitchen Items",
+      "rentPricePerDay": 5,
+      "deposit": 20,
+      "images": [
+        "https://images.unsplash.com/photo-1578643463396-0997cb5328c1?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.346999999999994,
+        "lng": -71.10260000000001,
+        "address": "International Village Common Kitchen, Northeastern University"
+      },
+      "availability": false,
+      "condition": "Good",
+      "college": "Northeastern University",
+      "hostel": "International Village",
+      "featured": false,
+      "createdAt": "2026-07-08T16:23:16.880Z"
+    },
+    {
+      "id": "p7",
+      "ownerId": "u1",
+      "title": "Anker Soundcore Motion+ Bluetooth Speaker",
+      "description": "High-resolution audio speaker with intense bass and superb clarity. Perfect for small outdoor gatherings, hostel rooftop picnics, or studying with some ambient music. Includes USB-C charging cable and aux cable.",
+      "category": "Electronics",
+      "rentPricePerDay": 4,
+      "deposit": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.3512,
+        "lng": -71.106,
+        "address": "Warren Towers Lobby, Boston University"
+      },
+      "availability": true,
+      "condition": "Like New",
+      "college": "Boston University",
+      "hostel": "Warren Towers",
+      "featured": true,
+      "createdAt": "2026-07-09T16:23:16.880Z"
+    },
+    {
+      "id": "p8",
+      "ownerId": "u2",
+      "title": "Introduction to Algorithms (CLRS) - 4th Edition",
+      "description": "The essential textbook for computer science students studying data structures and algorithms. Skip the bookstore price and rent it for your midterm prep or homework assignments. Pristine condition with no highlighting.",
+      "category": "Books",
+      "rentPricePerDay": 2,
+      "deposit": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.3492,
+        "lng": -71.1042,
+        "address": "Kilachand Hall Room 402"
+      },
+      "availability": true,
+      "condition": "Good",
+      "college": "Boston University",
+      "hostel": "Kilachand Hall",
+      "featured": false,
+      "createdAt": "2026-07-01T16:23:16.880Z"
+    },
+    {
+      "id": "p9",
+      "ownerId": "u1",
+      "title": "MacBook Pro 13\" (M1, 8GB, 256GB SSD)",
+      "description": "Super fast and reliable M1 MacBook Pro. Ideal for student developers, graphic designers, or anyone needing a temporary machine for final exams, coding bootcamps, or video editing on Final Cut Pro/Premiere. Includes USB-C charger.",
+      "category": "Laptop",
+      "rentPricePerDay": 18,
+      "deposit": 120,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.351,
+        "lng": -71.1065,
+        "address": "Warren Towers, Floor 12"
+      },
+      "availability": true,
+      "condition": "Like New",
+      "college": "Boston University",
+      "hostel": "Warren Towers",
+      "featured": true,
+      "createdAt": "2026-07-05T16:23:16.880Z"
+    },
+    {
+      "id": "p10",
+      "ownerId": "u3",
+      "title": "Wilson Evolution Indoor Game Basketball (Size 29.5\")",
+      "description": "Top-tier indoor composite leather basketball. Excellent grip and durability. Perfect for pick-up games at the university recreation center or local court. Please do not use outdoors on rough asphalt!",
+      "category": "Sports",
+      "rentPricePerDay": 3,
+      "deposit": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1519766304817-4f37bda74a27?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.3462,
+        "lng": -71.1025,
+        "address": "International Village Recreation Center, Northeastern University"
+      },
+      "availability": true,
+      "condition": "Good",
+      "college": "Northeastern University",
+      "hostel": "International Village",
+      "featured": false,
+      "createdAt": "2026-07-10T16:23:16.880Z"
+    },
+    {
+      "id": "p11",
+      "ownerId": "u3",
+      "title": "Honeywell TurboForce Power Air Circulator Fan",
+      "description": "A powerful, compact 3-speed cooling fan. Crucial for non-air-conditioned hostel rooms during the summer/early fall semesters. Super quiet and can be table or wall-mounted. Keep your dorm breezy!",
+      "category": "Hostel Essentials",
+      "rentPricePerDay": 2,
+      "deposit": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1618945084196-856ee25816bb?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.3468,
+        "lng": -71.1022,
+        "address": "International Village Room 508"
+      },
+      "availability": true,
+      "condition": "Good",
+      "college": "Northeastern University",
+      "hostel": "International Village",
+      "featured": true,
+      "createdAt": "2026-07-11T16:23:16.880Z"
+    },
+    {
+      "id": "p12",
+      "ownerId": "u2",
+      "title": "DEWALT 20V MAX Cordless Drill Combo Kit",
+      "description": "Powerful cordless drill with a complete 20-piece screwdriver and drill bit set. Essential for assembling Ikea furniture, hanging frames, or hostel decoration projects. Includes rechargeable battery and charger.",
+      "category": "Tools",
+      "rentPricePerDay": 6,
+      "deposit": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.349,
+        "lng": -71.1046,
+        "address": "Kilachand Hall Basement Storage"
+      },
+      "availability": true,
+      "condition": "Like New",
+      "college": "Boston University",
+      "hostel": "Kilachand Hall",
+      "featured": false,
+      "createdAt": "2026-07-06T16:23:16.880Z"
+    },
+    {
+      "id": "p13",
+      "ownerId": "u3",
+      "title": "Patagonia Better Sweater 1/4-Zip Fleece (Size L)",
+      "description": "Classic warm fleece jacket, perfect for cold Boston fall/winter mornings walking to lectures. Clean, freshly washed, and in excellent condition. High-quality moisture-wicking fabric.",
+      "category": "Fashion",
+      "rentPricePerDay": 4,
+      "deposit": 20,
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=400&fit=crop"
+      ],
+      "location": {
+        "lat": 42.3464,
+        "lng": -71.1029,
+        "address": "International Village Lobby, Northeastern University"
+      },
+      "availability": true,
+      "condition": "Good",
+      "college": "Northeastern University",
+      "hostel": "International Village",
+      "featured": false,
+      "createdAt": "2026-07-08T16:23:16.880Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1",
+      "productId": "p6",
+      "renterId": "u1",
+      "ownerId": "u3",
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-15",
+      "totalPrice": 25,
+      "deposit": 20,
+      "status": "APPROVED",
+      "paymentStatus": "PAID",
+      "pickupCode": "QR-P6-U1-9874",
+      "isPickedUp": true,
+      "isReturned": false,
+      "lateFee": 0,
+      "createdAt": "2026-07-08T16:23:16.880Z"
+    },
+    {
+      "id": "b2",
+      "productId": "p5",
+      "renterId": "u3",
+      "ownerId": "u2",
+      "startDate": "2026-07-02",
+      "endDate": "2026-07-05",
+      "totalPrice": 18,
+      "deposit": 25,
+      "status": "COMPLETED",
+      "paymentStatus": "PAID",
+      "pickupCode": "QR-P5-U3-4321",
+      "isPickedUp": true,
+      "isReturned": true,
+      "lateFee": 0,
+      "createdAt": "2026-06-30T16:23:16.880Z"
+    },
+    {
+      "productId": "p1",
+      "renterId": "g3cxg6r74",
+      "ownerId": "u1",
+      "startDate": "2026-07-12",
+      "endDate": "2026-07-13",
+      "totalPrice": 15.75,
+      "deposit": 100,
+      "id": "b-i4r6zrno0",
+      "status": "PENDING",
+      "paymentStatus": "PENDING",
+      "pickupCode": "QR-8VMI-5835",
+      "isPickedUp": false,
+      "isReturned": false,
+      "lateFee": 0,
+      "createdAt": "2026-07-12T16:34:01.471Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "reviewerId": "u3",
+      "reviewerName": "Jordan Miller",
+      "reviewerImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
+      "productId": "p5",
+      "productTitle": "Fender FA-115 Dreadnought Acoustic Guitar",
+      "targetUserId": "u2",
+      "rating": 5,
+      "comment": "The guitar was in perfect tune and condition! Sarah was super easy to coordinate with and very flexible with pick up times. Highly recommend!",
+      "createdAt": "2026-07-06T16:23:16.880Z"
+    },
+    {
+      "id": "r2",
+      "reviewerId": "u2",
+      "reviewerName": "Sarah Chen",
+      "reviewerImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
+      "targetUserId": "u3",
+      "rating": 5,
+      "comment": "Jordan returned the guitar exactly on time and in perfect shape. Polite and respectful of the item!",
+      "createdAt": "2026-07-06T16:23:16.880Z"
+    }
+  ],
+  "wishlist": [],
+  "messages": [
+    {
+      "id": "m1",
+      "productId": "p1",
+      "senderId": "u2",
+      "senderName": "Sarah Chen",
+      "receiverId": "u1",
+      "receiverName": "Alex Rivera",
+      "text": "Hey Alex! Is your Sony Alpha camera available this Friday for a quick 1-day shoot?",
+      "createdAt": "2026-07-11T16:23:16.880Z"
+    },
+    {
+      "id": "m2",
+      "productId": "p1",
+      "senderId": "u1",
+      "senderName": "Alex Rivera",
+      "receiverId": "u2",
+      "receiverName": "Sarah Chen",
+      "text": "Hi Sarah! Yes, it is. The battery will be fully charged and I will include a spare one too.",
+      "createdAt": "2026-07-11T16:33:16.880Z"
+    },
+    {
+      "id": "m3",
+      "productId": "p1",
+      "senderId": "u2",
+      "senderName": "Sarah Chen",
+      "receiverId": "u1",
+      "receiverName": "Alex Rivera",
+      "text": "Awesome, thanks! I will put in the booking request right now.",
+      "createdAt": "2026-07-11T16:38:16.880Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "userId": "u1",
+      "title": "Booking Active",
+      "message": "Your rental of the Ninja Professional Blender has started. Use pickup code QR-P6-U1-9874.",
+      "read": false,
+      "type": "booking_accepted",
+      "createdAt": "2026-07-10T16:23:16.880Z"
+    },
+    {
+      "id": "n2",
+      "userId": "u2",
+      "title": "Review Received",
+      "message": "Jordan Miller left you a 5-star review for the Fender Acoustic Guitar!",
+      "read": false,
+      "type": "general",
+      "createdAt": "2026-07-06T16:23:16.880Z"
+    },
+    {
+      "id": "5isjtfltj",
+      "userId": "u1",
+      "title": "New Booking Request",
+      "message": "Someone wants to rent your \"Sony Alpha a6400 Mirrorless Camera\" starting 2026-07-12.",
+      "read": false,
+      "type": "booking_request",
+      "createdAt": "2026-07-12T16:34:01.471Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep1",
+      "reporterId": "u2",
+      "productId": "p4",
+      "reason": "The cycle lock description is inaccurate; the lock included has a faulty cylinder.",
+      "status": "PENDING",
+      "createdAt": "2026-07-09T16:23:16.880Z"
+    }
+  ],
+  "stats": {
+    "commissionPercentage": 5,
+    "totalRevenue": 280,
+    "platformEarnings": 14,
+    "totalRentals": 15
+  }
+}
