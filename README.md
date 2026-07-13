@@ -17,7 +17,7 @@ Rent expensive gear from students nearby.
 ## 🏠 Homepage
 
 <p align="center">
-  <img src="./docs/homepage.png" alt="RentMyThing Homepage" width="100%">
+  <img src="./docs/listings.png" alt="RentMyThing Homepage" width="100%">
 </p>
 
 ---
@@ -25,7 +25,7 @@ Rent expensive gear from students nearby.
 ## 🛍️ Marketplace
 
 <p align="center">
-  <img src="./docs/listings.png" alt="RentMyThing Marketplace" width="100%">
+  <img src="./docs/homepage.png" alt="RentMyThing Marketplace" width="100%">
 </p>
 
 ---
